@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Node React <!-- omit in toc -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Table of Contents <!-- omit in toc -->
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Package Scripts](#package-scripts)
+
+## Prerequisites
+Install the following before you start:
+- Node.js >= 14
+  - Mac / Linux users with nvm: `$ nvm install 14`
+    - nvm is highly recommended
+  - Install directly from Node: https://nodejs.org/en/
+- Yarn
+  - Follow instructions here: https://yarnpkg.com/en/
+
+## Getting Started
+1. Clone project from git repository
+    - `$ git clone git@github.com:praveensnsct/node-react.git` OR
+    - `$ git clone https://github.com/praveensnsct/node-react.git`
+2.  Change to project directory
+    - `$ cd node-react`
+3. Install dependencies
+    - `$ yarn`
+4.  Start application. Please use the default port 3000 as this port is added as a trsusted port in the server
+    - `$ yarn start`
 
 ## Available Scripts
 
@@ -13,11 +38,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
