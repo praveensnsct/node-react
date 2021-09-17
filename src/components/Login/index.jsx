@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header';
 import './index.scss';
 
-const LoginForm = ({ onSubmit, setUserId, setPassword, error }) => {
+const LoginForm = ({ onSubmit, onSignUp, setUserId, setPassword, error }) => {
   return (
     <div className='loginContainer'>
         <Header />
@@ -21,6 +21,7 @@ const LoginForm = ({ onSubmit, setUserId, setPassword, error }) => {
                     <input type="password" name="password" id="password" className='formInput_input' onChange={setPassword}/>
                 </div>
                 <input type='submit' onClick={onSubmit} className='formInput_submit' value='Sign In' />
+                <input type='submit' onClick={onSignUp} className='formInput_submit' value='Sign Up' />
             </div>
         </div>
     </div>

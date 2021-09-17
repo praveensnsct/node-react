@@ -43,9 +43,20 @@ const Login = () => {
     }
   }
 
+  const signUp = () => {
+    dispatch(push('/create-user'));
+  }
+
   return (
     <>
-      { token ? <Redirect to="/users" /> : <LoginForm onSubmit={signIn} setUserId={updateUserId} setPassword={updatePassword} error={error}/> }
+      { token ? 
+        <Redirect to="/users" /> :
+        <LoginForm
+          onSubmit={signIn}
+          onSignUp={signUp}
+          setUserId={updateUserId}
+          setPassword={updatePassword}
+          error={error}/> }
     </>
   )
 }

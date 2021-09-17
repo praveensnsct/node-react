@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 import registerServiceWorker from './registerServiceWorker';
 import ErrorBoundary from './ErrorBoundary';
 import configureStore from './configureStore';
+import './index.css';
 
 // Import all application routes
 import Routes, { history } from './routes';

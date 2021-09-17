@@ -46,6 +46,7 @@ const User = () => {
         <Header isLoggedIn logout={logout}/>
         <UserTable columns={[
             { key: 'name', name: 'Full Name'},
+            { key: 'email', name: 'Email'},
             { key: 'status', name: 'Active/Inactive'},
         ]} data={users} />
     </>

@@ -4,7 +4,7 @@ import { Route, Switch, Redirect } from 'react-router';
 import { ConnectedRouter } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
 import SecureRoute from './secureRoute';
-import { AccessDeniedPage, Login, User, NotFoundPage } from '../containers';
+import { AccessDeniedPage, Login, User, NotFoundPage, CreateUser } from '../containers';
 
 export const history = createBrowserHistory();
 
@@ -23,6 +23,7 @@ const ApplicationRoutes = () => (
         </Route>
         <SecureRoute exact path="/users" component={User} />
         <Route path="/login" exact component={Login} />
+        <Route path="/create-user" exact component={CreateUser} />
         <Route path="/unauthorized" component={AccessDeniedPage} />
         <Route
           path="*"

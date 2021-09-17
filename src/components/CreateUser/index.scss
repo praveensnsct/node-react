@@ -1,0 +1,55 @@
+.userContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &_body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        top: 60px;
+        position: relative;
+
+        &_content {
+            border: 1px solid gray;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_error {
+            color: red;
+        }
+    }
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    height: 54px;
+    justify-content: space-between;
+
+    &_input {
+        width: 320px;
+        height: 14px;
+        border-radius: 4px;
+        border: 1px solid #c3c5cd;
+        padding: 6px;
+    }
+
+    &_submit {
+        background: #ff5b4a;
+        border-radius: 4px;
+        border: 1px solid #c3c5cd;
+        height: 32px;
+        margin: 16px 0;
+        cursor: pointer;
+
+        &:disabled {
+            opacity: 0.7;
+        }
+    }
+}
