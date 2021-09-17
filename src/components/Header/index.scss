@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    display: flex;
+    height: 60px;
+    background: #ff5b4a;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout {
+    background: #000000;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #c3c5cd;
+    height: 32px;
+    margin-right: 40px;
+    cursor: pointer;
+}
