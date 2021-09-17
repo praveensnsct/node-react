@@ -15,6 +15,7 @@ Install the following before you start:
   - Install directly from Node: https://nodejs.org/en/
 - Yarn
   - Follow instructions here: https://yarnpkg.com/en/
+- Run Node Express project along with this to connect to APIs. Follow how to run backend app here: https://github.com/praveensnsct/node-express/blob/master/README.md
 
 ## Getting Started
 1. Clone project from git repository
@@ -26,6 +27,7 @@ Install the following before you start:
     - `$ yarn`
 4.  Start application. Please use the default port 3000 as this port is added as a trsusted port in the server
     - `$ yarn start`
+5. In order to sign in to the application, please create an user account using the self sign up button. 
 
 ## Available Scripts
 
